@@ -86,3 +86,25 @@ Cypress.Commands.add('Empty_Username_And_Password_Field_Test', () => {
 
 })
 
+Cypress.Commands.add('my_Account', ()=>{
+
+    
+    cy.contains('My Account').click()   
+    expect('#Content').to.exist
+    
+    })
+
+    Cypress.Commands.add('Account_Info_Text',()=>{
+
+        cy.wait(500)
+        cy.get().each((element, index) => { 
+        cy.log('element: ', element.text())     
+        const text = element.text()           
+        expect(text).to.contain(data.AccountInformation[index]) 
+           
+    })
+    
+  })
+    
+      
+    

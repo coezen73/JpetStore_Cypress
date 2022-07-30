@@ -2,8 +2,9 @@
   "name": "jpetstore---cypress",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.js",     
   "scripts": {
+    "JPetStore":"npx cypress run --record --key 1f196a58-2a83-4c83-8016-ddf2bb586969 --spec 'cypress/integration/a-JPetStore_Anmeldung/Einloggen.spec.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Coezen",
