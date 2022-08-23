@@ -2,14 +2,17 @@
   "name": "jpetstore---cypress",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",     
+  "main": "index.js",
   "scripts": {
-    "JPetStore":"npx cypress run --record --key 1f196a58-2a83-4c83-8016-ddf2bb586969 --spec 'cypress/integration/a-JPetStore_Anmeldung/Einloggen.spec.js'",
+    "EinloggenTest": "npx cypress run --record --key 1f196a58-2a83-4c83-8016-ddf2bb586969 --spec 'cypress/integration/a-JPetStore_Anmeldung/Einloggen.spec.js'",
+    "MyAccount": "npx cypress run --record --key 1f196a58-2a83-4c83-8016-ddf2bb586969 --spec 'cypress/integration/a-JPetStore_Anmeldung/myAccount.spec.js'",
+    "SideBar": "npx cypress run --record --key 1f196a58-2a83-4c83-8016-ddf2bb586969 --spec 'cypress/integration/b-JPetStore_Katalog/SideBar.spec.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Coezen",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.6.1"
+    "cypress": "^9.6.1",
+    "mysql": "^2.18.1"
   }
 }

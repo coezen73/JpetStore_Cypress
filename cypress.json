@@ -1,5 +1,5 @@
 {
-    "baseUrl": "https://wikipedia.org",
+    "baseUrl":  "https://wikipedia.org/",
     "defaultCommandTimeout": 10000,
     "pageLoadTimeout": 15000,
     "viewportHeight": 1028,
@@ -7,9 +7,12 @@
     
     "chromeWebSecurity": false,
     "failOnStatusCode": false,
-    "env": {
-      "username": "",
-      "password": ""
-    },
-    "projectId": "ufig3s"
-  }
+   
+      "db":{
+        "host":"",
+        "password": "" ,
+        "database": ""
+      }
+    }
+
+
