@@ -1,5 +1,5 @@
 {
-    "baseUrl":  "https://wikipedia.org/",
+    "baseUrl":  "https://petstore.octoperf.com/",
     "defaultCommandTimeout": 10000,
     "pageLoadTimeout": 15000,
     "viewportHeight": 1028,
